@@ -98,7 +98,7 @@ class MainController extends Controller
         Mail::to("bachirnoubaa@gmail.com")->send(new SendEmail($data));
         Mail::to($data['email'])->send(new SendEmail($data));
 
-        return Request("Message sent With Success, We'ill catch you sone 😊",200);
+        return Response("Message sent With Success, We'ill catch you sone 😊",200);
 
     }
 }

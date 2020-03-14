@@ -63,8 +63,11 @@ Ajax Contact Form
                 $form.html('<div class="alert alert-success">' + data.message + '</div>');
             }
         }).fail(function (data) {
-            // for debug
-            console.log(data)
+            console.log(data);
+            
+            if(data.success){
+                swal("Your message has Sent!", data.responseText, "success");
+            }
         });
 
         e.preventDefault();

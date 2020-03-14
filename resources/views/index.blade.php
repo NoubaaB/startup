@@ -1068,6 +1068,7 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/stellarnav.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
     <script src="js/contact-form.js"></script>
     <script src="js/jquery.sticky.js"></script>
 
