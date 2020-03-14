@@ -64,7 +64,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="call-to-action">
                             <p><i class="fa fa-phone"></i> <a href="callto:+212622643924">+212 622-643924</a></p>
-                            <p><i class="fa fa-envelope-o"></i> <a href="mailto:backpiper.com@gmail.com">bachirnoubaa@hotmail.com</a></p>
+                            <p><i class="fa fa-envelope-o"></i> <a href="mailto:backpiper.com@gmail.com">bachirnoubaa@gmail.com</a></p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
@@ -120,11 +120,11 @@
                     <div class="row flex-v-center">
                         <div class="col-md-7 col-lg-6 col-sm-12 col-xs-12">
                             <div class="welcome-text">
-                                <h4>We are</h4>
-                                <h1>Business Theme Creator</h1>
-                                <p>At vero eos et accusamus iusto odio dignissimos ducmus qui blanditiis praesentium voluptatum deleniti</p>
+                                <h4 id="welcome-1-1">We are</h4>
+                                <h1 id="welcome-1-2">Business Theme Creator</h1>
+                                <p id="welcome-1-3">At vero eos et accusamus iusto odio dignissimos ducmus qui blanditiis praesentium voluptatum deleniti</p>
                                 <div class="home-button">
-                                    <a href="#">see our project</a>
+                                    <a href="#portfolio">see our project</a>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                                 <h1>Business Theme Creator</h1>
                                 <p>At vero eos et accusamus iusto odio dignissimos ducmus qui blanditiis praesentium voluptatum deleniti</p>
                                 <div class="home-button">
-                                    <a href="#">see our project</a>
+                                    <a href="#portfolio">see our project</a>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                                 <h1>Business Theme Creator</h1>
                                 <p>At vero eos et accusamus iusto odio dignissimos ducmus qui blanditiis praesentium voluptatum deleniti</p>
                                 <div class="home-button">
-                                    <a href="#">see our project</a>
+                                    <a href="#portfolio">see our project</a>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +184,7 @@
                         </div>
                         <h3>Web Development</h3>
                         <p>Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                        <a href="#" class="read-more">Learn More</a>
+                        <a href="#contact" class="read-more">Contact-Us</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
@@ -194,7 +194,7 @@
                         </div>
                         <h3>Photography</h3>
                         <p>Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                        <a href="#" class="read-more">Learn More</a>
+                        <a href="#contact" class="read-more">Contact-Us</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
@@ -204,7 +204,7 @@
                         </div>
                         <h3>Online Marketing</h3>
                         <p>Lorem Ipsum is a simply dummy texts of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                        <a href="#" class="read-more">Learn More</a>
+                        <a href="#contact" class="read-more">Contact-Us</a>
                     </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <div class="about-content mb50 wow fadeIn">
                         <p>About Our Company</p>
-                        <h2>We are Theme Creator</h2>
+                        <h2 id="We_are_Theme_Creator"></h2>
                         <p class="high-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <a href="#" class="read-more">Learn More</a>
@@ -229,31 +229,31 @@
                     <div class="waraper skills-member wow fadeInLeft mb50">
                         <div class="skillst5">
                             <div class="skillbar" data-percent="78%">
-                                <div class="title">HTML 5</div>
+                                <div class="title">Development Application Web</div>
                                 <div class="count-bar color-1">
                                     <div class="count"></div>
                                 </div>
                             </div>
                             <div class="skillbar" data-percent="91%">
-                                <div class="title">CSS 4</div>
+                                <div class="title">Development Site E-commerce</div>
                                 <div class="count-bar color-2">
                                     <div class="count"></div>
                                 </div>
                             </div>
-                            <div class="skillbar" data-percent="58%">
-                                <div class="title">jQuery</div>
+                            <div class="skillbar" data-percent="82%">
+                                <div class="title">Development Gesture Web App</div>
                                 <div class="count-bar color-3">
                                     <div class="count"></div>
                                 </div>
                             </div>
                             <div class="skillbar" data-percent="63%">
-                                <div class="title">PHP</div>
+                                <div class="title">Devlopment Site Catalogue</div>
                                 <div class="count-bar color-4">
                                     <div class="count"></div>
                                 </div>
                             </div>
                             <div class="skillbar" data-percent="100%">
-                                <div class="title">Photoshop</div>
+                                <div class="title">Create Logo And Portfolio</div>
                                 <div class="count-bar color-5">
                                     <div class="count"></div>
                                 </div>
@@ -272,7 +272,7 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                     <div class="area-title text-center wow fadeIn">
-                        <h2>Services We Provides</h2>
+                        <h2 id="SERVICES_WE_PROVIDES"></h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
                     </div>
                 </div>
@@ -340,7 +340,7 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                     <div class="area-title text-center wow fadeIn">
-                        <h2>Our Awesome Projects</h2>
+                        <h2 id="OUR_AWESOME_PROJECTS"></h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
                     </div>
                 </div>
@@ -957,7 +957,7 @@
                                     </div>
                                     <div class="contact-details">
                                         <h5>Email</h5>
-                                        <p>bachirnoubaa@hotmail.com</p>
+                                        <p>bachirnoubaa@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -1071,6 +1071,7 @@
     <script src="js/sweetalert.min.js"></script>
     <script src="js/contact-form.js"></script>
     <script src="js/jquery.sticky.js"></script>
+    <script src="js/typeit.min.js"></script>
 
     <!--===== ACTIVE JS=====-->
     <script src="js/main.js"></script>
@@ -1085,6 +1086,36 @@
                 $event.preventDefault();
             }
         };
+
+        //typeIt Shit managemnet ... 
+        new TypeIt("#We_are_Theme_Creator", {
+                strings: "We are Theme Creator",
+                speed: 100,
+                loop: true,
+                waitUntilVisible: true
+                }).go();
+        new TypeIt("#SERVICES_WE_PROVIDES", {
+                speed: 100,
+                loop: true,
+                waitUntilVisible: true
+                }).type("Service ...")
+                .pause(1000)
+                .delete(4)
+                .pause(1500)
+                .type(" We ")
+                .pause(200)
+                .type("Provides")
+                .go();
+        new TypeIt("#OUR_AWESOME_PROJECTS", {
+                speed: 100,
+                loop: true,
+                waitUntilVisible: true
+                }).type("Our Awesome ")
+                .pause(1000)
+                .type("PROJECT")
+                .pause(200)
+                .type("S")
+                .go();
     </script>
 
 </body>
