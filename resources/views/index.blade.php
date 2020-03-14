@@ -253,7 +253,7 @@
                                 </div>
                             </div>
                             <div class="skillbar" data-percent="100%">
-                                <div class="title">Create Logo And Portfolio</div>
+                                <div class="title">Design Logo And Portfolio</div>
                                 <div class="count-bar color-5">
                                     <div class="count"></div>
                                 </div>
@@ -351,8 +351,8 @@
                         <ul class="portfolio-menu">
                             <li class="active" data-filter="*">All</li>
                             <li data-filter=".web">Web Design</li>
-                            <li data-filter=".photography">Photography</li>
-                            <li data-filter=".development">Web Development </li>
+                            <li data-filter=".Development_Application_Web">Application Web</li>
+                            <li data-filter=".Site_Catalogue">Site Catalogue </li>
                             <li data-filter=".marketing">Online Marketing </li>
                             <li data-filter=".digital">Digital Media </li>
                         </ul>
@@ -360,7 +360,7 @@
                 </div>
             </div>
             <div class="row portfolio-list wow fadeIn">
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 marketing photography portfolio-item">
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 marketing Development_Application_Web portfolio-item">
                     <div class="single-portfolio white">
                         <div class="portfolio-thumb">
                             <img src="storage/img/portfolio/portfolio_1.jpg" alt="">
@@ -371,7 +371,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 digital development portfolio-item">
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 digital Site_Catalogue portfolio-item">
                     <div class="single-portfolio white">
                         <div class="portfolio-thumb">
                             <img src="storage/img/portfolio/portfolio_2.jpg" alt="">
@@ -382,7 +382,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 photography marketing portfolio-item">
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 Development_Application_Web marketing portfolio-item">
                     <div class="single-portfolio white">
                         <div class="portfolio-thumb">
                             <img src="storage/img/portfolio/portfolio_3.jpg" alt="">
@@ -404,7 +404,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 development marketing portfolio-item">
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 Site_Catalogue marketing portfolio-item">
                     <div class="single-portfolio white">
                         <div class="portfolio-thumb">
                             <img src="storage/img/portfolio/portfolio_5.jpg" alt="">
@@ -426,7 +426,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 photography portfolio-item">
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 Development_Application_Web portfolio-item">
                     <div class="single-portfolio white">
                         <div class="portfolio-thumb">
                             <img src="storage/img/portfolio/portfolio_7.jpg" alt="">
@@ -437,7 +437,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 development web portfolio-item">
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 Site_Catalogue web portfolio-item">
                     <div class="single-portfolio white">
                         <div class="portfolio-thumb">
                             <img src="storage/img/portfolio/portfolio_8.jpg" alt="">
@@ -486,7 +486,7 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                     <div class="area-title text-center wow fadeIn">
-                        <h2>Meet Our Team</h2>
+                        <h2 id="MEET_OUR_TEAM"></h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
                     </div>
                 </div>
@@ -617,7 +617,7 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                     <div class="area-title text-center wow fadeIn">
-                        <h2>Our Happy Clients</h2>
+                        <h2 id='OUR_HAPPY_CLIENTS'></h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
                     </div>
                 </div>
@@ -781,7 +781,7 @@
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
                     <div class="area-title text-center wow fadeIn">
-                        <h2>Our Latest News</h2>
+                        <h2 id="OUR_LATEST_NEWS"></h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
                     </div>
                 </div>
@@ -1087,7 +1087,7 @@
             }
         };
 
-        //typeIt Shit managemnet ... 
+        //typeIt Shit managemnet ... Exodus : "Dirty Deeds Done Dirt Cheap"
         new TypeIt("#We_are_Theme_Creator", {
                 strings: "We are Theme Creator",
                 speed: 100,
@@ -1105,6 +1105,7 @@
                 .type(" We ")
                 .pause(200)
                 .type("Provides")
+                .pause(3000)
                 .go();
         new TypeIt("#OUR_AWESOME_PROJECTS", {
                 speed: 100,
@@ -1115,6 +1116,37 @@
                 .type("PROJECT")
                 .pause(200)
                 .type("S")
+                .pause(3000)
+                .go();
+        new TypeIt("#MEET_OUR_TEAM", {
+                speed: 100,
+                loop: true,
+                waitUntilVisible: true
+                }).type("MEET ")
+                .pause(2000)
+                .type('our team')
+                .pause(3000)
+                .go();
+        new TypeIt("#OUR_HAPPY_CLIENTS", {
+               speed: 100,
+                loop: true,
+                waitUntilVisible: true
+                }).type("OUR 😊 ")
+                .pause(2000)
+                .delete(3)
+                .type('HAPPY CLIENTS')
+                .pause(3000)
+                .go();
+        new TypeIt("#OUR_LATEST_NEWS", {
+               speed: 100,
+                loop: true,
+                waitUntilVisible: true
+                }).type("OUR LATEST ...")
+                .pause(1000)
+                .delete(3)
+                .pause(500)
+                .type('NEWS')
+                .pause(3000)
                 .go();
     </script>
 
