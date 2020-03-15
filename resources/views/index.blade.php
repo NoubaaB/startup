@@ -1043,7 +1043,7 @@
                             <p>
                                 Copyright &copy;<script>
                                     document.write(new Date().getFullYear());
-                                </script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="{{url('')}}" target="_blank">MEGA INNOVATION</a>
+                                </script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="{{url('')}}" target="_blank">MEGA INNOVATOR</a>
                             </p>
                         </div>
                     </div>

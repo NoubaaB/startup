@@ -11,5 +11,20 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+mix.js(
+    [
+        "public/js/app.js",
+        "public/js/owl.carousel.min.js",
+        "public/js/stellar.js",
+        "public/js/imagesloaded.pkgd.min.js",
+        "public/js/isotope.pkgd.min.js",
+        "public/js/wow.min.js",
+        "public/js/stellarnav.min.js",
+        "public/js/sweetalert.min.js",
+        "public/js/contact-form.js",
+        "public/js/jquery.sticky.js",
+        "public/js/typeit.min.js",
+        "public/js/main.js"
+    ],
+    "public/dist/js"
+);
